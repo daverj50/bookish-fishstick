@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Core.Entities;
 
-public class Product
+public class Product : BaseEntity
 {
 
     public int ProductId { get; set; }
